@@ -14,7 +14,7 @@ float ave;
    scanf("%d\n", &m2);
    
    ave= (m1+m2)/2;
-   printf("average= %.2f", &ave);
+   printf("Average= %.2f", &ave);
   
   return 0;
 }

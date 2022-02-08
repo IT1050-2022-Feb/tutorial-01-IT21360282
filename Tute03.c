@@ -19,10 +19,10 @@ int main()
     int sum=0;
 
   printf("Enter value for n:");
-  scanf("%d", &n);
+  scanf("%d",&n);
 
   for(x=1;x<=n;++x){
-    sum=sum+x;
+    sum = sum + x;
   }
 
   printf("\nSum :%d",sum);

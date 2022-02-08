@@ -25,7 +25,7 @@ float amount;
   prinf("Enter the Distance (km):");
   scanf("%f", &distance);
   
-  if(distance<=30 && distance>0)
+  if(distance <= 30 && distance > 0)
   {
   amount= distance*50;
   }
